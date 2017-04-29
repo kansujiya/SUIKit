@@ -13,6 +13,7 @@
 		502545741EB4DB2300CB680E /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545731EB4DB2300CB680E /* SView.swift */; };
 		502545771EB4DB3600CB680E /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545751EB4DB3500CB680E /* SViewController.swift */; };
 		502545781EB4DB3600CB680E /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502545761EB4DB3600CB680E /* SViewController.xib */; };
+		5025457D1EB5187A00CB680E /* SViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025457C1EB5187A00CB680E /* SViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		502545731EB4DB2300CB680E /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
 		502545751EB4DB3500CB680E /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
 		502545761EB4DB3600CB680E /* SViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SViewController.xib; sourceTree = "<group>"; };
+		5025457C1EB5187A00CB680E /* SViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,9 @@
 		502545511EB4D8CA00CB680E /* SUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				5025457B1EB5186300CB680E /* Protocol */,
+				5025457A1EB517A000CB680E /* Utility */,
+				502545791EB5177D00CB680E /* WhiteLabeling */,
 				502545521EB4D8CA00CB680E /* SUIKit.h */,
 				502545531EB4D8CA00CB680E /* Info.plist */,
 				502545731EB4DB2300CB680E /* SView.swift */,
@@ -93,6 +98,28 @@
 				5025455F1EB4D8CB00CB680E /* Info.plist */,
 			);
 			path = SUIKitTests;
+			sourceTree = "<group>";
+		};
+		502545791EB5177D00CB680E /* WhiteLabeling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WhiteLabeling;
+			sourceTree = "<group>";
+		};
+		5025457A1EB517A000CB680E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5025457B1EB5186300CB680E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5025457C1EB5187A00CB680E /* SViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5025457D1EB5187A00CB680E /* SViewProtocol.swift in Sources */,
 				502545771EB4DB3600CB680E /* SViewController.swift in Sources */,
 				502545741EB4DB2300CB680E /* SView.swift in Sources */,
 			);

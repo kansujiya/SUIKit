@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SViewController: UIViewController {
+class SViewController: UIViewController, SViewProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,11 @@ class SViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func handleEvent(_ view: UIView, withIndex index: Int, andInfo info: Any) {
+        var error: NSError?
+        NSException.raise(NSExceptionName(rawValue: "Handle Event in SView drived class"), format:"Error: %@", arguments:getVaList([error!]))
+    }
+    
     /*
     // MARK: - Navigation
 
