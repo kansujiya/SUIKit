@@ -10,6 +10,9 @@
 		502545591EB4D8CB00CB680E /* SUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5025454F1EB4D8CA00CB680E /* SUIKit.framework */; };
 		5025455E1EB4D8CB00CB680E /* SUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025455D1EB4D8CB00CB680E /* SUIKitTests.swift */; };
 		502545601EB4D8CB00CB680E /* SUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 502545521EB4D8CA00CB680E /* SUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502545741EB4DB2300CB680E /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545731EB4DB2300CB680E /* SView.swift */; };
+		502545771EB4DB3600CB680E /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545751EB4DB3500CB680E /* SViewController.swift */; };
+		502545781EB4DB3600CB680E /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502545761EB4DB3600CB680E /* SViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		502545581EB4D8CB00CB680E /* SUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5025455D1EB4D8CB00CB680E /* SUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIKitTests.swift; sourceTree = "<group>"; };
 		5025455F1EB4D8CB00CB680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502545731EB4DB2300CB680E /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
+		502545751EB4DB3500CB680E /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		502545761EB4DB3600CB680E /* SViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				502545521EB4D8CA00CB680E /* SUIKit.h */,
 				502545531EB4D8CA00CB680E /* Info.plist */,
+				502545731EB4DB2300CB680E /* SView.swift */,
+				502545751EB4DB3500CB680E /* SViewController.swift */,
+				502545761EB4DB3600CB680E /* SViewController.xib */,
 			);
 			path = SUIKit;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					5025454E1EB4D8CA00CB680E = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					502545571EB4D8CB00CB680E = {
@@ -179,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502545781EB4DB3600CB680E /* SViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502545771EB4DB3600CB680E /* SViewController.swift in Sources */,
+				502545741EB4DB2300CB680E /* SView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +333,7 @@
 		502545641EB4D8CB00CB680E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.coredata.SUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +353,7 @@
 		502545651EB4D8CB00CB680E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +372,7 @@
 		502545671EB4D8CB00CB680E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SUIKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coredata.SUIKitTests;
@@ -367,6 +384,7 @@
 		502545681EB4D8CB00CB680E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SUIKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coredata.SUIKitTests;
@@ -394,6 +412,7 @@
 				502545651EB4D8CB00CB680E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502545661EB4D8CB00CB680E /* Build configuration list for PBXNativeTarget "SUIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +421,7 @@
 				502545681EB4D8CB00CB680E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
