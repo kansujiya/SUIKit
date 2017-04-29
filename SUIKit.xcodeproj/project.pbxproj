@@ -14,6 +14,7 @@
 		502545771EB4DB3600CB680E /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545751EB4DB3500CB680E /* SViewController.swift */; };
 		502545781EB4DB3600CB680E /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502545761EB4DB3600CB680E /* SViewController.xib */; };
 		5025457D1EB5187A00CB680E /* SViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025457C1EB5187A00CB680E /* SViewProtocol.swift */; };
+		502545831EB5210700CB680E /* SNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545821EB5210700CB680E /* SNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		502545751EB4DB3500CB680E /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
 		502545761EB4DB3600CB680E /* SViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SViewController.xib; sourceTree = "<group>"; };
 		5025457C1EB5187A00CB680E /* SViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewProtocol.swift; sourceTree = "<group>"; };
+		502545821EB5210700CB680E /* SNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				502545731EB4DB2300CB680E /* SView.swift */,
 				502545751EB4DB3500CB680E /* SViewController.swift */,
 				502545761EB4DB3600CB680E /* SViewController.xib */,
+				502545821EB5210700CB680E /* SNavigationController.swift */,
 			);
 			path = SUIKit;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5025457D1EB5187A00CB680E /* SViewProtocol.swift in Sources */,
+				502545831EB5210700CB680E /* SNavigationController.swift in Sources */,
 				502545771EB4DB3600CB680E /* SViewController.swift in Sources */,
 				502545741EB4DB2300CB680E /* SView.swift in Sources */,
 			);
