@@ -22,6 +22,17 @@ class SView: UIView, SViewProtocol {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+    
+    }
+    
+    func viewDidLoad(){
+        
+    }
+    
+    func viewWillAppear(_ animated: Bool) {
+    }
+    
+    func viewDidAppear(_ animated: Bool) {
     }
     
     func handleEvent(_ view: UIView, withIndex index: Int, andInfo info: Any) {
