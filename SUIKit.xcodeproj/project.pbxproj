@@ -15,6 +15,9 @@
 		502545781EB4DB3600CB680E /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502545761EB4DB3600CB680E /* SViewController.xib */; };
 		5025457D1EB5187A00CB680E /* SViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025457C1EB5187A00CB680E /* SViewProtocol.swift */; };
 		502545831EB5210700CB680E /* SNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545821EB5210700CB680E /* SNavigationController.swift */; };
+		502953961ED16CE800A03456 /* SView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 502545731EB4DB2300CB680E /* SView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		502953971ED16CFC00A03456 /* SViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 502545751EB4DB3500CB680E /* SViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		502953981ED16D0900A03456 /* SNavigationController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 502545821EB5210700CB680E /* SNavigationController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				502545601EB4D8CB00CB680E /* SUIKit.h in Headers */,
+				502953961ED16CE800A03456 /* SView.swift in Headers */,
+				502953981ED16D0900A03456 /* SNavigationController.swift in Headers */,
+				502953971ED16CFC00A03456 /* SViewController.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
